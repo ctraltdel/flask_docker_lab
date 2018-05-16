@@ -2,7 +2,7 @@
 import os
 
 # Title of the site
-SITE_TITLE = 'My Flask Docker Lab'
+SITE_TITLE = 'Jacob\'s Flask Docker Lab'
 # The URL for static files/images
 STATIC_URL = 'https://s3-us-west-2.amazonaws.com/flaskdockerlab-static/'
 # The name of the
@@ -11,7 +11,7 @@ FAV_ICON = STATIC_URL + 'docker-icon.png'
 # Pages to show on the nav menu (provide a url or route)
 PAGES=[
     {'title':'Lab Blog',
-        'url':'https://www.cloudshiftstrategies.com/flaskdockerlab.html'},
+        'url':'https://www.cloudshiftstrategies.com/travisLab.html'},
     {'title':'Load Gen','route':'loadgen'},
     ]
 
